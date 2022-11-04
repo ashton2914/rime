@@ -1,0 +1,69 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Fri Nov  4 09:15:50 2022"
+  rime_version: 1.5.3
+
+patch:
+  # General
+  style/color_scheme: dark
+  style/display_tray_icon: false
+  style/fullscreen: false
+  style/horizontal: true
+  style/inline_preedit: true
+
+  # Font
+  style/color_font: false
+  # Font --> Font Face
+  style/font_face: "Microsoft YaHei UI, Microsoft JhenHei UI"
+  style/label_font_face: "Microsoft YaHei UI, Microsoft JhenHei UI"
+  style/comment_font_face: "Microsoft YaHei UI, Microsoft JhenHei UI"
+  # Font --> Font Size
+  style/font_point: 12
+  style/label_font_point: 10
+  style/comment_font_point: 10
+
+  # Layout
+  # Layout --> Element
+  style/layout/align_type: center
+  style/layout/border: 1
+  style/layout/spacing: 15
+  style/layout/hilite_spacing: 5
+  style/layout/hilite_padding: 4
+  style/layout/candidate_spacing: 20
+  style/layout/corner_radius: 8
+  style/layout/hilited_corner_radius: 5
+  style/layout/margin_x: 8
+  style/layout/margin_y: 8
+  # Layout --> Shadow
+  style/layout/shadow_radius: 5
+  style/layout/shadow_offset_x: 4
+  style/layout/shadow_offset_y: 4
+
+  "preset_color_schemes/light":
+    name: light
+    author: ashton
+    back_color: 0xF9F9F9             # 底色
+    text_color: 0x272727             # 編碼行文字顏色
+    shadow_color: 0x272727           # 阴影颜色
+    candidate_text_color: 0x272727   # 候選項文字顏色
+    border_color: 0xD9D9D9           # 邊框顏色
+    hilited_text_color: 0x272727     # 高亮文字
+    hilited_back_color: 0xD9D9D9     # 設定高亮文字的底色
+    hilited_candidate_text_color: 0x272727  # 高亮候選項的文字顏色
+    hilited_candidate_back_color: 0xD9D9D9  # 高亮候選項的底色
+
+  
+  "preset_color_schemes/dark":
+    name: dark
+    author: ashton
+    back_color: 0x272727             # 底色
+    text_color: 0xF9F9F9             # 編碼行文字顏色
+    shadow_color: 0x000000           # 阴影颜色
+    candidate_text_color: 0xF9F9F9   # 候選項文字顏色
+    border_color: 0x202020           # 邊框顏色
+    hilited_text_color: 0xF9F9F9     # 高亮文字
+    hilited_back_color: 0x3B3B3B     # 設定高亮文字的底色
+    hilited_candidate_text_color: 0xF9F9F9  # 高亮候選項的文字顏色
+    hilited_candidate_back_color: 0x383838  # 高亮候選項的底色
